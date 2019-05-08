@@ -63,7 +63,7 @@ public class cucumberbase {
 	 * driver.findElement(By.id("telephoneno")).sendKeys(list.get(0).get(4));
 	 * driver.findElement(By.name("submit")).click(); }
 	 
-	@When("I complete actionsss")
+ nv 	@When("I complete actionsss")
 	public void i_complete_actionsss(DataTable dataTable) {
 		Map<String, String> map = dataTable.asMap(String.class, String.class);
 		driver.findElement(By.xpath("//label[text()='Done']")).click();
